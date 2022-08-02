@@ -1,0 +1,118 @@
+@media (max-width: 1230px) {
+    .nav_list {
+        display: none;
+    }
+    .nav-button {
+        display: block;
+    }
+
+    .border_header {
+        display: none;
+    }
+
+    .nav.open .nav_list{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: white;
+
+
+        z-index: 1;
+        padding: 46px 30px;
+        display: flex;
+        flex-direction: column;
+        column-gap: 68px;
+        font-family: 'Gilroy-Bold';
+        font-size: 34px;
+        font-weight: 600;
+
+        color: #090909;
+    }
+
+    .nav-button {
+        position: absolute;
+        z-index: 9;
+        top: 46px;
+        right: 30px;
+    }
+
+    .nav.open .nav-button {
+        position: fixed;
+    }
+
+    .wrapper_header {
+        flex-direction: column;
+        margin-right: 800px;
+        row-gap: 23px;
+
+    }
+
+    .switch_lang {
+        display: none;
+    }
+    .wrapper_ux_yo {
+        margin-left: 32px;
+    }
+}
+
+@media (max-width: 700px) {
+    .p_header {
+        font-size: 47px;
+    }
+
+    .p_yo span {
+        font-size: 18px
+    }
+
+    .img_wrapper_skills {
+        flex-direction: column;
+        column-gap: 81px;
+    }
+
+    .portfolio {
+        padding: 60px 0;
+    }
+    .portfolio-title {
+
+        margin-bottom: 65px;
+    }
+
+    .project-img {
+        margin-bottom: 30px;
+    }
+
+    .project + .project {
+        margin-top: 78px;
+    }
+
+    .contacts {
+        padding: 60px 0;
+    }
+
+    .contacts-title {
+        margin-bottom: 20px;
+    }
+    .contacts-content {
+        margin-bottom: 20px;
+    }
+
+    .contacts-button {
+        margin-bottom: 70px;
+
+    }
+
+    .contact-social {
+        margin-bottom: 20px;
+        column-gap: 50px;
+    }
+}
+
+@media (max-width: 990px) {
+    .img_wrapper_skills {
+        flex-direction: column;
+        column-gap: 81px;
+    }
+
+}
